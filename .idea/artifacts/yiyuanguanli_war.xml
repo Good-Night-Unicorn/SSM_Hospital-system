@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yiyuanguanli:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>yiyuanguanli</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="yiyuanguanli.war">
+      <element id="artifact" artifact-name="yiyuanguanli:war exploded" />
+    </root>
+  </artifact>
+</component>
